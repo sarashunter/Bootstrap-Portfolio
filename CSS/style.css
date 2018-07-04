@@ -11,7 +11,7 @@ h1{
     font-weight:bold;
 }
 /*This is the title for each page */
-h2{
+h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-weight:bold;
@@ -42,7 +42,7 @@ h2{
 
       /* Wrapper for page content to push down footer */
       #wrap {
-        min-height: 100%;
+        min-height: 93%;
         height: auto !important;
         height: 100%;
         /* Negative indent footer by it's height */
@@ -50,7 +50,6 @@ h2{
       }
 
       /* Set the fixed height of the footer here */
-      #push,
       #footer {
         height: 30px;
       }
