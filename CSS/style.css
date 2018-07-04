@@ -30,6 +30,14 @@ h3{
     border-bottom: 2px solid #cccccc;
 }
 
+/* Just for Portfolio page*/
+
+.cardtitle{
+  background-color: #4aaaa5;
+  width:100%;
+}
+
+
      /* Sticky footer styles - 
      The following CSS is from a bootstrap tutorial https://getbootstrap.com/2.3.2/examples/sticky-footer.html
       -------------------------------------------------- */
