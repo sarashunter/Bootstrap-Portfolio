@@ -16,58 +16,72 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-5 text-center">
-                <h1>Sara Hunter</h1>
-            </div>
-            <!--Start Navbar-->
-            <div class="col-12 col-md-7">
-                <!--Add navbar-expand to keep navbar contents horizontal on small screens
+    <div id="wrap">
+        <div class="container-fluid">
+            <div class="row bg-light border-title">
+                <!--Center Title-->
+                <!--Change width depending on size.  MD/LG necessary so name doesn't take up two lines-->
+                <!--Change background-->
+                <div class="col-12 offset-md-1 col-md-5 col-lg-4 text-center text-md-left bg-title">
+                    <h1>Sara Hunter</h1>
+                </div>
+                <!--Start Navbar-->
+                <!--Add bottom border to navbar-->
+                <div class="col-12 col-md-5 col-lg-6">
+                    <!--Add navbar-expand to keep navbar contents horizontal on small screens
                 
                 Add justify-content-center to center nav links
                 -->
-                <nav class="navbar navbar-expand navbar-light bg-light justify-content-center">
-                    <!--Add ml-md-auto to align links to the right on md or bigger-->
-                    <div class="navbar-nav ml-md-auto">
-                        <a class="nav-item nav-link active" href="index.html">About
-                            <span class="sr-only">(current)</span>
-                        </a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    </div>
-                </nav>
+                    <nav class="navbar navbar-expand navbar-light bg-light justify-content-center">
+                        <!--Add ml-md-auto to align links to the right on md or bigger-->
+                        <div class="navbar-nav ml-md-auto">
+                            <a class="nav-item nav-link active" href="index.html">About
+                                <span class="sr-only">(current)</span>
+                            </a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!--End Navbar-->
+
+            <!--Page Heading-->
+            <div class="row">
+                <!-- Adapt size to viewport.  Add margin-->
+                <div class="col-12 offset-md-1 col-md-10 bg-light mt-4 border-title border-top border-right border-left">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <!--Start Main Content-->
+            <div class="row">
+                <!--Adapt size to viewport-->
+                <div class="col-12 offset-md-1 col-md-10 col-lg-7 bg-light border-right border-left border-bottom">
+                    <img src="images/biophotosmall.jpg" class="float-md-left" alt="Photo of Sara Hunter">
+                    <p>When I'm not solving problems on a computer, I can be found doing flips in a kayak or climbing rocks.
+                        I love to combine my passion for problem solving and analytical thinking with the outdoors.</p>
+                    <p>I have a background in logistics and technical support with brief forays into public safety and political
+                        science.
+                    </p>
+                    <p>I have a dispassion for writing bio pages and spend hours trying to figure out what to say in them. Clearly,
+                        I'm not a content creator.
+                    </p>
+                </div>
+                <!--End Main Content-->
+                <!--Start sidebar-->
+                <div class="col-lg-3 bg-light">
+                    <!--I just take up space with my background-->
+                </div>
             </div>
         </div>
-        <!--End Navbar-->
-        <!--Page Heading-->
-        <div class="row">
-            <div class="col-12">
-                <h2>About Me</h2>
-            </div>
+        <div id="push"></div>
+    </div>
+    <!--Start Footer-->
+    <div id="footer">
+        <div class="container footer-style col-12">
+            Copyright
         </div>
-        <!--Start Main Content-->
-        <div class="row">
-            <!--Change from 2/3s width to full width for small screens-->
-            <div class="col-12 col-md-8">
-                <img src="images/biophotosmall.jpg" alt="Photo of Sara Hunter">
-                <p>When I'm not solving problems on a computer, I can be found doing flips in a kayak or climbing rocks. I love
-                    to combine my passion for problem solving and analytical thinking with the outdoors.</p>
-                <p>I have a background in logistics and technical support with brief forays into public safety and political
-                    science.
-                </p>
-                <p>I have a dispassion for writing bio pages and spend hours trying to figure out what to say in them. Clearly,
-                    I'm not a content creator.
-                </p>
-            </div>
-        </div>
-        <!--End Main Content-->
-        <!--Start Footer-->
-        <footer class="bd-footer text-muted">
-            <div class="container-fluid p-3 p-md-5">
-                <p>Copyright</p>
-            </div>
-        </footer>
+
         <!--End Footer-->
     </div>
 </body>
