@@ -1,0 +1,17 @@
+body{
+    background-image:url("../images/stripes-light.png");
+    font-family: Arial, 'Helveticca Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+/* This is the header that says Sara Hunter */
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight:bold;
+}
+/*This is the title for each page */
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
