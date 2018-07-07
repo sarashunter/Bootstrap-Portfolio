@@ -23,18 +23,33 @@ h3{
 .footer-style{
     background-color: #666666;
     color: #cccccc;
+    margin: auto;
     border-top:7px solid #4aaaa5;
     font-size: 12px;
 }
 .border-title{
     border-bottom: 2px solid #cccccc;
 }
-
+p{
+  text-align: left;
+}
 /* Just for Portfolio page*/
-
-.cardtitle{
+.btn-portfolio{
   background-color: #4aaaa5;
   width:100%;
+  color: #ffffff;
+  border: radius 0;
+position: absolute;
+bottom:0;
+padding-top:10px;
+padding-bottom:10px;
+left:0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  border:0;
+}
+.btn-portfolio:hover{
+  background-color:#429692;
+  border:0;
 }
 
 
