@@ -39,17 +39,21 @@ p{
   width:100%;
   color: #ffffff;
   border: radius 0;
-position: absolute;
-bottom:0;
-padding-top:10px;
-padding-bottom:10px;
-left:0;
-font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  bottom:0;
+  padding-top:7px;
+  padding-bottom:7px;
+  left:0;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border:0;
 }
 .btn-portfolio:hover{
   background-color:#429692;
-  border:0;
+}
+a.btn-portfolio:hover{
+  color:#ffffff;
+  text-decoration: none;
 }
 
 
