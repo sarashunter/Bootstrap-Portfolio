@@ -4,49 +4,44 @@ body{
     color: #777777;
     font-size: 18px;
 }
+p{
+  text-align: left;
+}
 /* This is the header that says Sara Hunter */
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     font-weight:bold;
 }
+.bg-title{
+  background-color: #4aaaa5;
+  display:inline-block;
+}
 /*This is the title for each page */
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-weight:bold;
-}
-.bg-title{
-    background-color: #4aaaa5;
-    display:inline-block;
-}
-.footer-style{
-    background-color: #666666;
-    color: #cccccc;
-    margin: auto;
-    border-top:7px solid #4aaaa5;
-    font-size: 12px;
+    line-height: 3;
+    border-bottom: 2px solid #cccccc;
 }
 .border-title{
     border-bottom: 2px solid #cccccc;
 }
-p{
-  text-align: left;
-}
 /* Just for Portfolio page*/
 .btn-portfolio{
-  background-color: #4aaaa5;
-  width:100%;
-  color: #ffffff;
-  border: radius 0;
-  position: absolute;
-  bottom:0;
-  padding-top:7px;
-  padding-bottom:7px;
-  left:0;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  border:0;
+    background-color: #4aaaa5;
+    width:100%;
+    color: #ffffff;
+    border: radius 0;
+    position: absolute;
+    bottom:0;
+    padding-top:7px;
+    padding-bottom:7px;
+    left:0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:0;
 }
 .btn-portfolio:hover{
   background-color:#429692;
@@ -55,10 +50,17 @@ a.btn-portfolio:hover{
   color:#ffffff;
   text-decoration: none;
 }
+.footer-style{
+  background-color: #666666;
+  color: #cccccc;
+  margin: auto;
+  border-top:7px solid #4aaaa5;
+  font-size: 12px;
+}
 
 
      /* Sticky footer styles - 
-     The following CSS is from a bootstrap tutorial https://getbootstrap.com/2.3.2/examples/sticky-footer.html
+     The following CSS is modified from a bootstrap tutorial https://getbootstrap.com/2.3.2/examples/sticky-footer.html
       -------------------------------------------------- */
 
       html,
@@ -79,14 +81,4 @@ a.btn-portfolio:hover{
       /* Set the fixed height of the footer here */
       #footer {
         height: 30px;
-      }
-
-      /* Lastly, apply responsive CSS fixes as necessary */
-      @media (max-width: 767px) {
-        #footer {
-          margin-left: -20px;
-          margin-right: -20px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
       }
